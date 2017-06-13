@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 
-<html><head>  <title>My Kitchen - Contact Us</title></head>
+<html><head>  <title>My Kitchen - Contact Us</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
 
 <body>
-<h1 align="center"> My Kitchen </h1>    
+
+<div class="conatiner">
+    
+   <div id="mycarousel" class="carousel slide" data-ride="carousel">
+       <ol class="carousel-indicators">
+           <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+           <li data-target="#mycarousel" data-slide-to="1" class="active"></li>
+           <li data-target="#mycarousel" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <br> <p class="align-center"> We are opening a new location </p> </br>
+            </div>
+
+            <div class="item" >
+                <br><p class="align-center"> We're rolling out our seasonal menu, with special options </p></br></div>
+    
+      <div class="item">
+        <p class="align-center"> The drink of the month is SG special brew </p>
+      </div>
+    </div>
+    
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a></div>
+ </div>
+<noscript> Enable javascript to see properly</noscript>
+<h1 > My Kitchen </h1>    
 <hr>
-<a href="home page.html" > Home </a> &nbsp
-<a href="menu.html" > Menu </a> &nbsp
-<a href="Contact us.html" > Contact US </a>
+<div class="container">
+    <ul class="nav nav-tabs" >
+<li ><a href="home page.html" >
+
+<span class="glyphicon glyphicon-home"></span>
+
+ </a></li>
+<li><a href="menu.html" > Menu </a></li>
+<li class="active"><a href="Contact us.html" >
+<span class="glyphicon glyphicon-envelope"> </span>    
+ </a></li>
+</ul></div>
+
 
 <hr>
 <form action="some.html" method="post">
 <table><tr>
- <td align="right"><label id="name" for="name"> Name: </ label></td>
+ <td align="right"><label id="name" for="name"><b> Name: </b></ label></td>
 <td><input id="name" name="name" type="text" /></td>
 </tr>
 
-<tr> <td align="right"><label id="email" for="email"> Email : </label></td>
+<tr> <td align="right"><label id="email" for="email"><b> Email : </b> </label></td>
 <td><input id="email" name="email" type="text" /></td>
 </tr>
 
-<tr> <td align="right"><label id="phone" for="phone"> Phone : </label></td>
+<tr> <td align="right"><label id="phone" for="phone"><b> Phone :</b> </label></td>
 <td><input id="phone" name="phone" type="text" /></td>
 </tr>
 
